@@ -6,6 +6,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @Profile("local")
-@PropertySource({"classpath:local/application.properties"})
+@PropertySource({"classpath:local/application.properties", "classpath:local/application.yml"})
 public class LocalProfile {
 }
