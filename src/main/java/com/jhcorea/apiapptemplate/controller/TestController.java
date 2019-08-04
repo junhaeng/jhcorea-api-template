@@ -47,4 +47,11 @@ public class TestController {
     public String case2() {
         return message2;
     }
+
+    @GetMapping
+    @RequestMapping("/log")
+    public String logTest() {
+        service.printLog();
+        return "OK!";
+    }
 }

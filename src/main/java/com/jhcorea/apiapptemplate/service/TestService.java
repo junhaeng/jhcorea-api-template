@@ -10,6 +10,6 @@ public class TestService {
     private static final Logger logger = LoggerFactory.getLogger(TestService.class);
 
     public void printLog() {
-
+        logger.debug("Test log!!");
     }
 }
