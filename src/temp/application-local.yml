@@ -1,0 +1,10 @@
+---
+heo:
+  datasource:
+    hikari:
+      db1ReadOnly:
+        jdbc-url:
+
+          config.setUsername( "database_username" );
+          config.setPassword( "database_password" );
+---
