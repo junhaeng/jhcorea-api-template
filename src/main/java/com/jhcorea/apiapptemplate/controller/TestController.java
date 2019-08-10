@@ -18,9 +18,6 @@ public class TestController {
     @Autowired
     ApplicationContext context;
 
-    @Value("${phase.common.message}")
-    String message;
-
     @Value("${simple.message}")
     String simple;
 
@@ -28,15 +25,9 @@ public class TestController {
     TestService service;
 
     @GetMapping
-    @RequestMapping("/phase")
-    public String getPhase() {
-        return message;
-    }
-
-    @GetMapping
     @RequestMapping("/case1")
     public String case1() {
-        return "OK";
+        return simple;
     }
 
     @GetMapping

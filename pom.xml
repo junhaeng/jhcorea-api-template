@@ -64,17 +64,17 @@
 	</dependencies>
 
 	<build>
-		<resources>
-			<resource>
-				<directory>${basedir}/src/main/resources-${env}</directory>
-				<includes>
-					<include>**/*</include>
-				</includes>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources>
+<!--		<resources>-->
+<!--			<resource>-->
+<!--				<directory>${basedir}/src/main/resources-${env}</directory>-->
+<!--				<includes>-->
+<!--					<include>**/*</include>-->
+<!--				</includes>-->
+<!--				<excludes>-->
+<!--					<exclude>**/*.java</exclude>-->
+<!--				</excludes>-->
+<!--			</resource>-->
+<!--		</resources>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
