@@ -1,4 +1,4 @@
-package com.jhcorea.apiapptemplate.service;
+package com.jhcorea.template.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

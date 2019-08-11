@@ -1,6 +1,6 @@
-package com.jhcorea.apiapptemplate.controller;
+package com.jhcorea.template.controller;
 
-import com.jhcorea.apiapptemplate.service.TestService;
+import com.jhcorea.template.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;

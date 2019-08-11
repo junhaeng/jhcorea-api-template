@@ -1,4 +1,4 @@
-package com.jhcorea.apiapptemplate;
+package com.jhcorea.template;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
