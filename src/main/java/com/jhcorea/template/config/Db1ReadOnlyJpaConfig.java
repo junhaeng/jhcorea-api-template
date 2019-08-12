@@ -41,7 +41,7 @@ public class Db1ReadOnlyJpaConfig {
 
     @Bean(name = "db1ReadOnlyEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean db1ReadOnlyEntityManagerFactory(
-            EntityManagerFactoryBuilder builder, @Qualifier("db1Datasource") DataSource db1ReadOnlyDataSource) {
+            EntityManagerFactoryBuilder builder, @Qualifier("db1ReadyOnlyDatasource") DataSource db1ReadOnlyDataSource) {
         return builder
                 .dataSource(db1ReadOnlyDataSource)
                 .properties(hibernateProperties())
